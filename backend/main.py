@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 from pathlib import Path
 import os
+import requests
 
 import joblib
 import pandas as pd
